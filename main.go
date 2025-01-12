@@ -28,7 +28,7 @@ func main() {
 	// slightly better usage output
 	flag.Usage = func() {
 		fmt.Fprint(flag.CommandLine.Output(), "Pretty print AWS costs over time.\n\n"+
-			"Given no arguments, the table displays monthly net unblended cost for\n"+
+			"Given no arguments, the output displays monthly net unblended cost for\n"+
 			"the previous 5 months through the end of the current month. Flags\n"+
 			"can be used to adjust the cost metric, granularity, and date range.\n\n",
 		)

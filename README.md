@@ -2,6 +2,9 @@
 
 Pretty print AWS costs over time.
 
+Given no arguments, the output displays monthly net unblended cost for the previous 5 months through the end of the current month.
+Flags can be used to adjust the cost metric, granularity, and date range.
+
 ```console
 % awscost
 ╭────────────┬────────────┬───────────────┬───────────╮
